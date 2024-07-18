@@ -854,7 +854,7 @@ a.active {
 ==================================================*/
 
 #about {
-    padding: 100px 0;
+    padding: 150px 0;
     /* background: #fff; */
 }
 
@@ -879,7 +879,7 @@ a.active {
 ==================================================*/
 
 #projects {
-    padding: 100px 0;
+    padding: 150px 0;
     background: url(../img/3.project_bg.png);
     background-size: cover;
 }
@@ -971,7 +971,7 @@ a.active {
 /* artwork section
 ==================================================*/
 #artwork {
-    padding: 100px 0;
+    padding: 150px 0;
     /* background: #f3f3f3; */
 }
 
@@ -984,6 +984,12 @@ a.active {
 
 #artwork img:hover {
     box-shadow: 0 0 30px rgb(0, 0, 0, 0.3);
+}
+
+#artwork h5{
+    text-align: center;
+    font-family: 'fragile';
+    margin-top: 50px;
 }
 
 /* popup section
@@ -1004,7 +1010,7 @@ a.active {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 90%;
+    width: 80%;
 }
 
 .pop1> div, .pop2> div, .pop3> div, .pop4> div, .pop8> div, .pop9> div{
@@ -1112,7 +1118,7 @@ a.active {
 
 .s_title{
     text-align: center;
-    margin: 70px 0 40px;
+    margin: 80px 0 50px;
     color: #666;
     font-size: medium;
 }
