@@ -159,10 +159,20 @@ $(document).ready(function () {
     });
     $('.art10').click(function () {
         $('.pop10').fadeIn();
-    });
+   });
 
+   var sample = $(".pop12 video").get(0);
+   var sample2 = $(".pop13 video").get(0);
+    $('.art12').click(function () {
+        $('.pop12').fadeIn();
+    });
+    $('.art13').click(function () {
+        $('.pop13').fadeIn();
+    });
     $('.popup i').click(function () {
         $('.popup').fadeOut();
+        sample.pause();
+        sample2.pause();
     });
 
     // slide
